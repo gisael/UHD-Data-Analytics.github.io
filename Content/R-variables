@@ -8,4 +8,59 @@ Variables in computer programming are labels we use to store value (information)
 
 Let's say we are calculating the area of rectangle
 
-![Rectangle image](https://drive.google.com/open?id=1vej-rmSfo_1rrkxwbtTtP16wNOfpIKhw)	 
+![Rectangle image](https://drive.google.com/file/d/1vej-rmSfo_1rrkxwbtTtP16wNOfpIKhw/view?usp=sharing)
+
+The formula for the area of a rectangle is _length_ times _width_ we can make use of variables to store the values of the rectangle in order to get the area.
+
+The variable "L" will store value of length and "W" the with. We will use letter "A" to store the area.
+
+i.e. 
+
+``` R
+L <- 5
+W <- 2
+A = L * Y
+A
+[1] 10
+```
+
+If we can to do the calculation of the area for another rectanble with different values we do not have to re-write the code but just changes values for **L** & **W** and re-run the code.
+
+i.e.
+
+``` R
+L <- 8
+W <- 5
+A
+[1] 40
+```
+
+## Type of data a variable can store
+
+Variables do not only store numerical values. They can store any type of data supported by the languege we use. Following are the most basic data types in R:
+
+* Decimal values like 1.2 are called numerics.
+* Natural numbers like 5 are called integers. Integers are also numerics.
+* Boolean values (TRUE or FALSE) are called logical.
+* Text (or string) values are called characters.
+
+Note: be advise that to assign text to a variable we must put the text value within quotation marks.
+
+i.e.
+
+``` R
+A <- "Hello World!"
+A
+[1] "Hello World!" 
+```
+
+If you have a variable but do not know what type of data it is storing you can always make use of class() function, as the following code shows.
+
+``` R
+number <- 5
+text <- "Hello!"
+class(number)
+[1] "numeric"
+class(text)
+[1] "character"
+```
