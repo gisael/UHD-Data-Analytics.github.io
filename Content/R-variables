@@ -1,0 +1,11 @@
+# Understanding Variables in R
+
+## What are variables and why we need them?
+
+Variables in computer programming are labels we use to store value (information) for later use. We use variables because we will not always remember the value we want to use in our program, also, a familiar name (for a variable) can help us remember what value we need to use in our program.
+
+## Let's do some work
+
+Let's say we are calculating the area of rectangle
+
+![Rectangle image](https://drive.google.com/open?id=1vej-rmSfo_1rrkxwbtTtP16wNOfpIKhw)	 
